@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:flutter_application_2/Components/NavigationTransition/NavigationTransition.dart';
 import 'package:flutter_application_2/views/Home/HomeView.dart';
 
 import 'Merchant/MerchantView.dart';

@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__flutter_application_2
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /snap/flutter/130/usr/bin/cmake -S/media/david/Datos/Desarrollo/flutter_application_2/linux -B/media/david/Datos/Desarrollo/flutter_application_2/build/linux/x64/debug
+  command = /snap/flutter/130/usr/bin/cmake -S/home/david/Desarrollo/memphis2/linux -B/home/david/Desarrollo/memphis2/build/linux/x64/debug
   description = Re-running CMake...
   generator = 1
 
