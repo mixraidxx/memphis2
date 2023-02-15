@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/layout.dart';
+import 'package:flutter_application_2/widgets/controller/menu_binding.dart';
+import 'package:get/get.dart';
 import 'package:get/route_manager.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
+  NavigationRaiBinding().dependencies();
   runApp(const MyApp());
 }
 
